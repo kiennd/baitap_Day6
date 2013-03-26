@@ -82,6 +82,7 @@
                 continue;
             }
         }
+                NSLog(@"%@",s);
         [lb1 setText:s.title];
         [lb2 setText:s.singer];
         [lb3 setText:[NSString stringWithFormat:@"%d",s.year]];
